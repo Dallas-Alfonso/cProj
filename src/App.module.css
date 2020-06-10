@@ -1,0 +1,28 @@
+body{
+    background-image: url(./images/imgforMainbackground.jpg); /* background-color: rgb(250, 250, 250)     https://openhandpgh.org/wp-content/uploads/2018/04/Canva-Hand-United-Hands-United-Together-People-Unity-1024x768.png*/ /* USE SOLID COLOR INSTEAD?*/
+
+    background-position: center 168px;
+}
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+.image {
+    width: 370px;
+    margin-top: 5px;
+    border-radius: 50px;
+    box-shadow: 6px 8px 2px #818181 ; 
+}
+
+@media only screen and (max-width: 770px) {
+    .container {
+        margin: 0 10%;
+    }
+
+    .image {
+        width: 100%;
+    }
+}

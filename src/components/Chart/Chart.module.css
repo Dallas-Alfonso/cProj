@@ -1,0 +1,14 @@
+.container {
+    display: flex;
+    justify-content: center;
+    width: 65%;
+    background-color: rgb(243, 243, 243); /* to change color of background of bar chart*/
+    border-radius:25px;
+    box-shadow: 0px 0px 15px #818181;
+}
+
+@media only screen and (max-width: 770px) {
+    .container {
+        width: 100%;
+    }
+}
