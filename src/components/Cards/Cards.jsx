@@ -22,7 +22,7 @@ const Info = ({ data: { confirmed, recovered, deaths, lastUpdate} }) => {
                             <CountUp start={0} end={confirmed.value} duration={2.75} separator="," />
                         </Typography>
                         <Typography color="textSecondary">{new Date(lastUpdate).toDateString()}</Typography>
-                        <Typography variant="body2" component="p">Current active cases of COVID-19</Typography>
+                        <Typography variant="body2" component="p">COVID-19: Current Active Cases</Typography>
                     </CardContent>
                 </Grid>
                 <Grid item component={Card} xs={12} md={3} className={cx(styles.card, styles.recovered)}>
@@ -32,7 +32,7 @@ const Info = ({ data: { confirmed, recovered, deaths, lastUpdate} }) => {
                             <CountUp start={0} end={recovered.value} duration={2.75} separator="," />
                         </Typography>
                         <Typography color="textSecondary">{new Date(lastUpdate).toDateString()}</Typography>
-                        <Typography variant="body2" component="p">Current recoveries from COVID-19</Typography>
+                        <Typography variant="body2" component="p">COVID-19: Current Recovered </Typography>
                     </CardContent>
                 </Grid>
                 <Grid item component={Card} xs={12} md={3} className={cx(styles.card, styles.deaths)}>
@@ -42,7 +42,7 @@ const Info = ({ data: { confirmed, recovered, deaths, lastUpdate} }) => {
                             <CountUp start={0} end={deaths.value} duration={2.75} separator="," />
                         </Typography>
                         <Typography color="textSecondary">{new Date(lastUpdate).toDateString()}</Typography>
-                        <Typography variant="body2" component="p">Current deaths caused by COVID-19</Typography>
+                        <Typography variant="body2" component="p">COVID-19: Current Deaths </Typography>
                     </CardContent>
                 </Grid>
             </Grid>

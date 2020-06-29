@@ -6,15 +6,10 @@
 }
 
 .card {
-    margin: 0 2% !important;
+    margin: 0 3% !important;
     
      /* margin: 0 2% !important; */
     
-}
-
-.shadow{
-    box-shadow: 0px 0px 15px #383737;
-    border-radius: 100px;
 }
 
 .infected {
@@ -47,3 +42,4 @@
         margin: 2% 0 !important;
     }
 }
+
