@@ -1,6 +1,6 @@
 # Together We Stand
 
-An App that tracks current Recoveries, Fatalities and Infected from Covid-19 gloabally.
+An App that tracks current Recoveries, Fatalities and Infected from Covid-19 globally.
 
 ## Features
 
